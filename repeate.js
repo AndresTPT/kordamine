@@ -6,7 +6,7 @@
  * @param {int} count number of copies to append
  * @returns {string}
  */
-function repeate(str, count) {
+ function repeate(str, count) {
   if (Number.isNaN(+count)) {
     throw new Error("count argument is not a number");
   }
